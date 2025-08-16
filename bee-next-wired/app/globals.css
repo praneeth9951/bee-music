@@ -1,0 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --bg: #0f0f0f; --fg: #ffffff; --accent: #ff8c00; }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); }
+button:disabled { opacity: .6; cursor: not-allowed; }
